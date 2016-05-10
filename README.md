@@ -15,7 +15,8 @@ Notes for [kurento-jsonrpc](https://github.com/Kurento/kurento-java/tree/master/
 #### Run WildFly
 
 ``` sh
-$WILDFLY_HOME/standalone.sh -Djboss.socket.binding.port-offset=100
+cd $WILDFLY_HOME/bin
+./standalone.sh -Djboss.socket.binding.port-offset=100
 ```
 
 #### Deploy client
